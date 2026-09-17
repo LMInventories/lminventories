@@ -558,7 +558,7 @@ textarea { resize: vertical; min-height: 100px; }
 }
 @media (max-width: 720px) {
   .site-nav, .header-cta { display: none; }
-  .menu-toggle { display: inline-flex; }
+  .menu-toggle { display: inline-flex; grid-column: 3; justify-self: end; }
   .listings-strip, .listings-grid, .offices, .team-grid, .services-strip, .services-grid, .team-grid-duo { grid-template-columns: 1fr; }
   .cinema-inner { grid-template-columns: 1fr; }
   .cinema-meta { border-left: none; border-top: 1px solid color-mix(in oklab, var(--cream) 30%, transparent); padding-left: 0; padding-top: 24px; }
