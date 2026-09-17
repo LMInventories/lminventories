@@ -136,7 +136,7 @@ p { margin: 0 0 1em; }
 .menu-toggle span { width: 16px; height: 1.5px; background: currentColor; }
 
 .site-mobile-nav {
-  display: none; position: fixed; inset: 106px 0 0; z-index: 40;
+  display: none; position: fixed; inset: 92px 0 0; z-index: 40;
   background: var(--bg); padding: 40px var(--pad-x);
   flex-direction: column; gap: 20px;
 }
@@ -566,6 +566,7 @@ textarea { resize: vertical; min-height: 100px; }
   .footer-top { grid-template-columns: 1fr 1fr; }
   .price-list li { flex-direction: column; align-items: flex-start; gap: 6px; }
   .price-list .fee-detail { text-align: left; }
+  .brand-logo { height: 64px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
