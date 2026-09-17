@@ -1,0 +1,6 @@
+node_modules/
+.env
+
+# Reference/working material, not needed to run the site
+/samples/
+/meridia/

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 750" role="img" aria-label="Orchard house">
+  <defs><linearGradient id="l4s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c9d4b5"/><stop offset="1" stop-color="#8ba070"/></linearGradient></defs>
+  <rect width="1000" height="750" fill="url(#l4s)"/>
+  <g opacity="0.7"><circle cx="150" cy="450" r="40" fill="#3a4b2f"/><circle cx="280" cy="440" r="50" fill="#2e5566" opacity="0.5"/><circle cx="420" cy="460" r="45" fill="#3a4b2f"/><circle cx="700" cy="450" r="50" fill="#3a4b2f"/><circle cx="850" cy="445" r="40" fill="#2e5566" opacity="0.5"/></g>
+  <rect x="320" y="380" width="400" height="200" fill="#faf5ea"/>
+  <polygon points="320,380 520,300 720,380" fill="#8e4431"/>
+  <g fill="#1a2139" opacity="0.7"><rect x="360" y="420" width="80" height="120"/><rect x="480" y="420" width="80" height="120"/><rect x="600" y="420" width="80" height="120"/></g>
+</svg>

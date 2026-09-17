@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 1600" role="img" aria-label="Luxury architectural exterior at dusk">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a2139"/>
+      <stop offset="0.45" stop-color="#3a3a55"/>
+      <stop offset="0.7" stop-color="#b59553"/>
+      <stop offset="1" stop-color="#6e4e2c"/>
+    </linearGradient>
+    <linearGradient id="house" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a2e3f"/>
+      <stop offset="1" stop-color="#15182a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="1" r="0.6">
+      <stop offset="0" stop-color="#b59553" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#b59553" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="2400" height="1600" fill="url(#sky)"/>
+  <rect y="800" width="2400" height="800" fill="url(#glow)"/>
+  <path d="M 0 1100 L 400 1060 L 700 1020 L 1000 1030 L 1400 1005 L 1800 1025 L 2400 1000 L 2400 1600 L 0 1600 Z" fill="#1f2438" opacity="0.7"/>
+  <g fill="url(#house)">
+    <rect x="500" y="950" width="1400" height="450"/>
+    <polygon points="500,950 700,830 1900,830 1900,950"/>
+  </g>
+  <g fill="#d9d3c3" opacity="0.12">
+    <rect x="540" y="1010" width="280" height="180"/>
+    <rect x="860" y="1010" width="180" height="180"/>
+    <rect x="1080" y="1010" width="440" height="180"/>
+    <rect x="1560" y="1010" width="280" height="180"/>
+  </g>
+  <g fill="#b59553" opacity="0.65">
+    <rect x="580" y="1050" width="40" height="100"/>
+    <rect x="1150" y="1050" width="60" height="100"/>
+    <rect x="1620" y="1050" width="40" height="100"/>
+  </g>
+  <rect x="0" y="1400" width="2400" height="200" fill="#15182a" opacity="0.5"/>
+  <ellipse cx="1200" cy="1500" rx="1600" ry="80" fill="#1a2139" opacity="0.5"/>
+  <path d="M 500 950 L 1900 950 L 1900 1400 L 500 1400 Z" fill="none" stroke="#b59553" stroke-width="1.5" opacity="0.15"/>
+</svg>

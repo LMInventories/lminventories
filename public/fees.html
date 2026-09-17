@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#f5f3ee" />
+  <title>Fees &amp; Enquiry | L&amp;M Inventories</title>
+  <meta name="description" content="See L&amp;M Inventories' fees and request a written quote for your inventory report, check in, check out or midterm inspection." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@400;500;600&display=swap" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html"><img class="brand-logo" src="assets/img/logo.png" alt="L&amp;M Inventories" /></a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="index.html">Home</a><a href="services.html">Services</a>
+      <a href="fees.html" class="active">Fees</a>
+      <a href="inspectpro.html">InspectPro</a>
+      <a href="about.html">About</a><a href="contact.html">Contact</a>
+    </nav>
+    <div class="header-cta"><a class="btn btn-ghost" href="#quote-form">Request a quote</a></div>
+    <button class="menu-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+  </header>
+  <nav class="site-mobile-nav"><a href="index.html">Home</a><a href="services.html">Services</a><a href="fees.html">Fees</a><a href="inspectpro.html">InspectPro</a><a href="about.html">About</a><a href="contact.html">Contact</a></nav>
+
+  <main>
+    <section class="property-hero">
+      <h1>Clear pricing, <span class="italic">no surprises</span></h1>
+      <p class="loc">Fees &amp; enquiry</p>
+      <div class="price-row">
+        <span class="price">From £100</span>
+        <div class="specs-pill">
+          <span>Inclusive of VAT</span>
+          <span>Written quote</span>
+          <span>Instant report via InspectPro</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="property-body">
+      <div class="property-overview">
+        <h2>How pricing works</h2>
+        <p>Inspections start from £100, increasing with property size. Midterm inspections start from £50. Every quote is confirmed with you before we book anything in, and we'll reply with an exact, written price, usually within the day.</p>
+
+        <h3 style="margin-top:32px;margin-bottom:16px;">Included as standard</h3>
+        <ul class="features-list">
+          <li>Full photography</li>
+          <li>Utility meter readings</li>
+          <li>Key log</li>
+          <li>Fire &amp; safety checks</li>
+          <li>Written PDF report</li>
+          <li>No hidden fees</li>
+          <li>Instant turnaround via InspectPro</li>
+        </ul>
+
+        <h3 style="margin-top:32px;margin-bottom:16px;">Fees</h3>
+        <ul class="price-list">
+          <li>
+            <span class="fee-name">Inventory inspection</span>
+            <span class="fee-detail"><strong>From £120</strong> studio / one-bed, £130 two-bed. Larger properties quoted on request.</span>
+          </li>
+          <li>
+            <span class="fee-name">Check in</span>
+            <span class="fee-detail"><strong>Included</strong> with any inventory booking.</span>
+          </li>
+          <li>
+            <span class="fee-name">Check out</span>
+            <span class="fee-detail"><strong>From £100</strong> against one of our own reports, £110 against another company's.</span>
+          </li>
+          <li>
+            <span class="fee-name">Midterm inspection</span>
+            <span class="fee-detail"><strong>From £50</strong> for a standard one-bed property.</span>
+          </li>
+        </ul>
+        <p class="price-note">All prices are inclusive of VAT. Final pricing depends on property size and location. Get in touch for an exact quote.</p>
+      </div>
+
+      <aside class="agent-card" id="quote-form">
+        <h3 style="margin-bottom:8px;">Request a quote</h3>
+        <p style="font-size:0.92rem;margin-bottom:20px;">Tell us about your property and we'll reply with a written price, usually within the day.</p>
+        <form data-enquiry-form>
+          <div class="form-field"><label for="q-name">Name</label><input type="text" id="q-name" name="name" required /></div>
+          <div class="form-field"><label for="q-email">Email</label><input type="email" id="q-email" name="email" required /></div>
+          <div class="form-field"><label for="q-phone">Phone <span style="text-transform:none;font-weight:400;">(optional)</span></label><input type="tel" id="q-phone" name="phone" /></div>
+          <div class="form-field">
+            <label for="q-service">Service</label>
+            <select id="q-service" name="service">
+              <option value="Inventory Report">Inventory report</option>
+              <option value="Check In">Check in</option>
+              <option value="Check Out">Check out</option>
+              <option value="Midterm Inspection">Midterm inspection</option>
+              <option value="Not sure / other">Not sure / other</option>
+            </select>
+          </div>
+          <div class="form-field"><label for="q-address">Property address</label><input type="text" id="q-address" name="address" required /></div>
+          <div class="form-field"><label for="q-message">Additional information <span style="text-transform:none;font-weight:400;">(optional)</span></label><textarea id="q-message" name="message" placeholder="Anything else we should know."></textarea></div>
+          <button type="submit" class="btn btn-brass">Submit enquiry</button>
+          <p class="form-status" role="status"></p>
+        </form>
+      </aside>
+    </section>
+
+    <section class="closing">
+      <span class="eyebrow">Still deciding?</span>
+      <h2>Get in <span class="italic">touch</span>.</h2>
+      <p>Happy to talk through what your property needs before you book anything in.</p>
+      <a class="btn btn-brass" href="contact.html">Contact us</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="inner">
+      <div class="footer-top">
+        <div><a class="brand" href="index.html"><span class="brand-mark">L&amp;M</span><span>L&amp;M Inventories<span class="brand-sub">Property Inventories · London</span></span></a><p class="footer-note">Meticulous inventory reports for landlords and letting agents across London.</p></div>
+        <div><p class="footer-heading">Company</p><ul><li><a href="about.html">About</a></li><li><a href="services.html">Services</a></li><li><a href="fees.html">Fees</a></li><li><a href="inspectpro.html">InspectPro</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+        <div><p class="footer-heading">Services</p><ul><li><a href="services.html#inventory">Inventory report</a></li><li><a href="services.html#check-in">Check in</a></li><li><a href="services.html#midterm">Midterm inspection</a></li><li><a href="services.html#check-out">Check out</a></li></ul></div>
+        <div><p class="footer-heading">Get in touch</p><p style="font-size:0.94rem;color:color-mix(in oklab, var(--cream) 70%, transparent);margin-bottom:8px;"><a href="mailto:info@lminventories.co.uk">info@lminventories.co.uk</a></p><p style="font-size:0.94rem;color:color-mix(in oklab, var(--cream) 70%, transparent);margin:0;">Serving London and the surrounding areas.</p></div>
+      </div>
+      <div class="footer-bottom"><p>&copy; <span id="y"></span> L&amp;M Inventories. All rights reserved.</p><p>London</p></div>
+    </div>
+  </footer>
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 750" role="img" aria-label="Mid-century ridge home">
+  <defs>
+    <linearGradient id="l1s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#b59553"/><stop offset="1" stop-color="#d9d3c3"/></linearGradient>
+    <linearGradient id="l1h" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4d3a26"/><stop offset="1" stop-color="#2a1f14"/></linearGradient>
+  </defs>
+  <rect width="1000" height="750" fill="url(#l1s)"/>
+  <polygon points="0,500 300,460 600,450 1000,440 1000,750 0,750" fill="#3a4b2f" opacity="0.65"/>
+  <rect x="200" y="380" width="600" height="200" fill="url(#l1h)"/>
+  <polygon points="200,380 300,330 700,330 800,380" fill="#332518"/>
+  <g fill="#fef6e1" opacity="0.7"><rect x="240" y="410" width="140" height="110"/><rect x="410" y="410" width="180" height="110"/><rect x="620" y="410" width="140" height="110"/></g>
+  <rect x="200" y="580" width="600" height="20" fill="#15182a" opacity="0.4"/>
+</svg>

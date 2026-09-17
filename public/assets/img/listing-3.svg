@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 750" role="img" aria-label="Napa Valley estate">
+  <defs><linearGradient id="l3s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#b59553"/><stop offset="0.7" stop-color="#8d7238"/><stop offset="1" stop-color="#6b5428"/></linearGradient></defs>
+  <rect width="1000" height="750" fill="url(#l3s)"/>
+  <g fill="#3a4b2f" opacity="0.8">
+    <path d="M 0 500 L 200 470 L 400 480 L 600 460 L 800 475 L 1000 455 L 1000 750 L 0 750 Z"/>
+  </g>
+  <rect x="250" y="400" width="500" height="180" fill="#5a4028"/>
+  <polygon points="250,400 350,350 650,350 750,400" fill="#3a2818"/>
+  <g fill="#fef6e1" opacity="0.7"><rect x="290" y="430" width="120" height="90"/><rect x="440" y="430" width="120" height="90"/><rect x="590" y="430" width="120" height="90"/></g>
+  <circle cx="150" cy="480" r="50" fill="#2d3a24" opacity="0.7"/>
+  <circle cx="850" cy="480" r="60" fill="#2d3a24" opacity="0.7"/>
+</svg>

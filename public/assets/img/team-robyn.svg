@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" role="img" aria-label="Robyn, co-founder of L&amp;M Inventories">
+  <defs><linearGradient id="tr" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3d4358"/><stop offset="1" stop-color="#1a2139"/></linearGradient></defs>
+  <rect width="600" height="800" fill="url(#tr)"/>
+  <ellipse cx="300" cy="780" rx="240" ry="280" fill="#b59553" opacity="0.4"/>
+  <circle cx="300" cy="360" r="140" fill="#d4a574"/>
+  <path d="M 160 360 Q 300 220 440 360 L 480 280 Q 300 120 120 280 Z" fill="#2a1f14"/>
+  <rect x="100" y="520" width="400" height="280" fill="#1a2139"/>
+  <text x="300" y="760" font-family="Cormorant Garamond, Georgia, serif" font-style="italic" font-size="26" fill="#fef6e1" text-anchor="middle" opacity="0.8">Robyn</text>
+</svg>

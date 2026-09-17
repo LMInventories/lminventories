@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1125" role="img" aria-label="Advisor reviewing plans at walnut table">
+  <defs>
+    <linearGradient id="aw" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#b59553"/><stop offset="1" stop-color="#5a4028"/></linearGradient>
+    <radialGradient id="al" cx="0.5" cy="0.3" r="0.5"><stop offset="0" stop-color="#fef6e1" stop-opacity="0.3"/><stop offset="1" stop-color="#fef6e1" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="900" height="1125" fill="url(#aw)"/>
+  <rect width="900" height="1125" fill="url(#al)"/>
+  <rect y="720" width="900" height="405" fill="#2a1f14" opacity="0.8"/>
+  <g transform="translate(450,600)">
+    <ellipse cx="0" cy="200" rx="180" ry="220" fill="#1a2139" opacity="0.8"/>
+    <circle cx="0" cy="-20" r="120" fill="#d4a574"/>
+    <path d="M -120 -20 Q 0 -160 120 -20 Z" fill="#3a3a55"/>
+  </g>
+  <g transform="translate(450,850)">
+    <rect x="-180" y="-10" width="360" height="120" fill="#faf5ea" opacity="0.85"/>
+    <rect x="-160" y="10" width="60" height="20" fill="#1a2139" opacity="0.3"/>
+    <rect x="-90" y="10" width="200" height="6" fill="#1a2139" opacity="0.3"/>
+    <rect x="-90" y="25" width="160" height="6" fill="#1a2139" opacity="0.3"/>
+    <rect x="-90" y="40" width="180" height="6" fill="#1a2139" opacity="0.3"/>
+    <rect x="-90" y="55" width="140" height="6" fill="#1a2139" opacity="0.3"/>
+  </g>
+</svg>
