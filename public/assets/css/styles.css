@@ -299,6 +299,8 @@ p { margin: 0 0 1em; }
 }
 .two-col img { width: 100%; aspect-ratio: 4/5; object-fit: cover; }
 .two-col .content p { font-size: 1.08rem; line-height: 1.8; }
+.two-col.reverse { grid-template-columns: 1.1fr 0.9fr; }
+.two-col.reverse img { order: 2; }
 
 /* ─── advisor callout (testimonial) ─── */
 .advisor {
